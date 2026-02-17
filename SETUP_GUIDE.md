@@ -10,14 +10,14 @@
 2. Click the **"Initialize President Account"** button
 3. Wait for the confirmation message
 4. **Save the credentials** displayed on screen:
-   - **Username**: `usc.president_IX`
+   - **Username**: `usc.president_ix`
    - **Password**: `presidential.login_uscix`
 
 ### Step 2: Login as President
 
 1. Go to the **Login page** (`/login`)
 2. Enter the credentials:
-   - **Username**: `usc.president_IX`
+   - **Username**: `usc.president_ix`
    - **Password**: `presidential.login_uscix`
 3. Click **"Sign In"**
 4. You will be redirected to the President Dashboard
@@ -132,7 +132,7 @@
 
 1. Make sure you've run the **Setup** process first (`/setup`)
 2. Verify you're using the exact credentials:
-   - Username: `usc.president_IX` (case-sensitive)
+   - Username: `usc.president_ix` (case-sensitive)
    - Password: `presidential.login_uscix` (case-sensitive)
 3. If still not working, run the Setup again (it's safe to run multiple times)
 

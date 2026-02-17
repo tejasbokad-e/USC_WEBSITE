@@ -110,11 +110,11 @@ export default function SetupPage() {
                 <CardContent className="space-y-2">
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">Username</p>
-                    <p className="text-lg font-mono font-bold">{credentials.username}</p>
+                    <p className="text-lg font-mono font-bold">usc.president_ix</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-muted-foreground">Password</p>
-                    <p className="text-lg font-mono font-bold">{credentials.password}</p>
+                    <p className="text-lg font-mono font-bold">presidential.login_uscix</p>
                   </div>
                 </CardContent>
               </Card>

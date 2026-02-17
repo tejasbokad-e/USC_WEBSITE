@@ -43,7 +43,7 @@ A comprehensive organizational management and study platform designed for managi
 ## President Account
 
 **Fixed Credentials (Pre-configured):**
-- Username: `usc.president_IX`
+- Username: `usc.president_ix`
 - Password: `presidential.login_uscix`
 
 ⚠️ **Important**: Only ONE President exists in the system with full administrative access.

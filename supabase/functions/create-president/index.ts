@@ -26,7 +26,7 @@ Deno.serve(async (req) => {
     const { data: existingProfile } = await supabaseAdmin
       .from('profiles')
       .select('id, username')
-      .eq('username', 'usc.president_IX')
+      .eq('username', 'usc.president_ix')
       .maybeSingle();
 
     if (existingProfile) {
@@ -34,7 +34,7 @@ Deno.serve(async (req) => {
         JSON.stringify({ 
           success: true, 
           message: 'President account already exists',
-          username: 'usc.president_IX',
+          username: 'usc.president_ix',
         }),
         { 
           headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -45,11 +45,11 @@ Deno.serve(async (req) => {
 
     // Create president user with Admin API
     const { data: authData, error: authError } = await supabaseAdmin.auth.admin.createUser({
-      email: 'usc.president_IX@miaoda.com',
+      email: 'usc.president_ix@miaoda.com',
       password: 'presidential.login_uscix',
       email_confirm: true,
       user_metadata: {
-        username: 'usc.president_IX',
+        username: 'usc.president_ix',
         full_name: 'USC IX President',
       },
     });
@@ -77,7 +77,7 @@ Deno.serve(async (req) => {
       JSON.stringify({ 
         success: true, 
         message: 'President account created successfully',
-        username: 'usc.president_IX',
+        username: 'usc.president_ix',
         password: 'presidential.login_uscix',
       }),
       { 
