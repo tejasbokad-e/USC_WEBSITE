@@ -1,6 +1,7 @@
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+import SetupPage from './pages/SetupPage';
 import DashboardPage from './pages/DashboardPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import StudyMaterialsPage from './pages/StudyMaterialsPage';
@@ -22,6 +23,11 @@ const routes: RouteConfig[] = [
     name: 'Home',
     path: '/',
     element: <HomePage />,
+  },
+  {
+    name: 'Setup',
+    path: '/setup',
+    element: <SetupPage />,
   },
   {
     name: 'Login',
