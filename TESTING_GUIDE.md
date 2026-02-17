@@ -11,11 +11,10 @@
 ### Test 1: Initialize President Account
 
 **Steps:**
-1. Open your browser and navigate to the platform homepage
-2. Click the **"🔧 Setup Platform"** button (or go to `/setup`)
-3. You should see the "Platform Setup" page with a shield icon
-4. Click the **"Initialize President Account"** button
-5. Wait for the process to complete (should take 2-3 seconds)
+1. Open your browser and navigate to `/setup` (type directly in address bar)
+2. You should see the "Platform Setup" page with a shield icon
+3. Click the **"Initialize President Account"** button
+4. Wait for the process to complete (should take 2-3 seconds)
 
 **Expected Result:**
 - ✅ Success message appears: "President account created successfully!"

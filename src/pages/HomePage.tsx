@@ -19,9 +19,6 @@ export default function HomePage() {
             A comprehensive organizational management and study platform for managing members, academic materials, departments, groups, and leadership hierarchy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button asChild size="lg" variant="outline">
-              <Link to="/setup">🔧 Setup Platform</Link>
-            </Button>
             <Button asChild size="lg">
               <Link to="/login">Sign In</Link>
             </Button>

@@ -6,12 +6,14 @@
 
 **IMPORTANT**: Before anyone can use the platform, you must initialize the President account.
 
-1. Navigate to: **`/setup`** (or click "🔧 Setup Platform" on the homepage)
+1. Navigate directly to: **`/setup`** (type in browser address bar)
 2. Click the **"Initialize President Account"** button
 3. Wait for the confirmation message
 4. **Save the credentials** displayed on screen:
    - **Username**: `usc.president_ix`
    - **Password**: `presidential.login_uscix`
+
+**Note**: The setup page is only accessible via direct URL for security reasons.
 
 ### Step 2: Login as President
 

@@ -14,7 +14,7 @@ Password: presidential.login_uscix
 ## How to Initialize the President Account
 
 ### Step 1: Visit Setup Page
-Navigate to: `/setup` or click "🔧 Setup Platform" on the homepage
+Navigate directly to: `/setup` (type in browser address bar)
 
 ### Step 2: Initialize Account
 Click the **"Initialize President Account"** button
@@ -33,7 +33,7 @@ Go to `/login` and use the credentials above
 
 **Check these common issues:**
 
-1. ✅ Have you run the Setup process? (`/setup`)
+1. ✅ Have you run the Setup process? (Navigate to `/setup`)
 2. ✅ Are you using lowercase 'ix'? (`usc.president_ix` not `usc.president_IX`)
 3. ✅ Is there a typo in the password? (`presidential.login_uscix`)
 4. ✅ Are you copying/pasting correctly? (no extra spaces)
@@ -42,7 +42,7 @@ Go to `/login` and use the credentials above
 
 If you need to reset:
 
-1. Go to `/setup` again
+1. Navigate to `/setup` in your browser
 2. Click "Initialize President Account"
 3. The system will detect if an account exists
 4. If needed, contact the system administrator to clean up the database
@@ -71,6 +71,8 @@ You will have access to:
 - ✅ Full administrative controls
 
 ---
+
+**Note**: The setup page is accessible via direct URL (`/setup`) only. There is no button on the homepage for security reasons.
 
 **Last Updated**: 2026-02-17
 **Platform**: USC IX Management Platform
